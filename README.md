@@ -1,6 +1,6 @@
-# Simple Bottom Navigation Bar
+# TabBar View
 
-<img src="https://user-images.githubusercontent.com/60619133/99178724-2065de00-273c-11eb-98ad-880ca00bd79f.png" alt="feed example" width = "320">
+<img src="https://user-images.githubusercontent.com/60619133/99182443-07b8f080-275b-11eb-99f2-efaa767d7023.png" alt="feed example" width = "320">
 
 ## Getting Started
 
