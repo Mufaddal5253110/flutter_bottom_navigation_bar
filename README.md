@@ -1,4 +1,4 @@
-# TabBar View
+# Custom TabBar View
 
 <img src="https://user-images.githubusercontent.com/60619133/99182443-07b8f080-275b-11eb-99f2-efaa767d7023.png" alt="feed example" width = "320">
 
