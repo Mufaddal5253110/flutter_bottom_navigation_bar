@@ -24,20 +24,8 @@ class _BottomNavSevenState extends State<BottomNavSeven>
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text("BottomNavigationBar 7"),
-      ),
-      body: new TabBarView(
-        children: <Widget>[
-          new NewPage("First"),
-          new NewPage("Second"),
-          new NewPage("Third"),
-          new NewPage("Fourth")
-        ],
-        controller: tabController,
-      ),
-      bottomNavigationBar: new Material(
-        color: Colors.purple,
-        child: new TabBar(
+        title: Text("TabBar 1"),
+        bottom: new TabBar(
           tabs: <Widget>[
             new Tab(
               icon: Icon(Icons.home),
@@ -54,6 +42,15 @@ class _BottomNavSevenState extends State<BottomNavSeven>
           ],
           controller: tabController,
         ),
+      ),
+      body: new TabBarView(
+        children: <Widget>[
+          new NewPage("First"),
+          new NewPage("Second"),
+          new NewPage("Third"),
+          new NewPage("Fourth")
+        ],
+        controller: tabController,
       ),
     );
   }
