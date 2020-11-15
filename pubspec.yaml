@@ -30,6 +30,7 @@ dependencies:
   cupertino_icons: ^1.0.0
   ff_navigation_bar: ^0.1.5
   titled_navigation_bar: ^4.1.0
+  curved_navigation_bar: ^0.3.4
 
 dev_dependencies:
   flutter_test:
