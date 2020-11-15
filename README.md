@@ -1,6 +1,9 @@
-# flutter_bottom_naviation_bar
+# ff Bottom Navigation bar
 
-A new Flutter project.
+<img src="https://user-images.githubusercontent.com/60619133/99178725-20fe7480-273c-11eb-9d57-6624dc8d03ae.png" alt="feed example" width = "320">
+
+## Reference
+[ff_navigation_bar](https://pub.dev/packages/ff_navigation_bar)
 
 ## Getting Started
 
