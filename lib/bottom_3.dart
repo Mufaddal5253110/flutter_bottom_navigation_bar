@@ -1,0 +1,50 @@
+import 'package:flutter/material.dart';
+import 'package:titled_navigation_bar/titled_navigation_bar.dart';
+
+class BottomNavThree extends StatefulWidget {
+  @override
+  State createState() => _BottomNavThreeState();
+}
+
+class _BottomNavThreeState extends State<BottomNavThree> {
+  final List<TitledNavigationBarItem> items = [
+    TitledNavigationBarItem(title: Text('Home'), icon: Icons.home),
+    TitledNavigationBarItem(title: Text('Search'), icon: Icons.search),
+    TitledNavigationBarItem(title: Text('Bag'), icon: Icons.card_travel),
+    TitledNavigationBarItem(title: Text('Orders'), icon: Icons.shopping_cart),
+    TitledNavigationBarItem(title: Text('Profile'), icon: Icons.person_outline),
+  ];
+
+  bool navBarMode = false;
+
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      appBar: AppBar(
+        title: Text("BottomNavigationBar Three"),
+      ),
+      body: Center(
+        child: Column(
+          mainAxisSize: MainAxisSize.min,
+          children: <Widget>[
+            Text("Reversed mode:"),
+            Switch(
+              value: navBarMode,
+              onChanged: (v) {
+                setState(() => navBarMode = v);
+              },
+            ),
+          ],
+        ),
+      ),
+      bottomNavigationBar: TitledBottomNavigationBar(
+        onTap: (index) => print("Selected Index: $index"),
+        reverse: navBarMode,
+        curve: Curves.easeInBack,
+        items: items,
+        activeColor: Colors.deepPurple,
+        inactiveColor: Colors.blueGrey,
+      ),
+    );
+  }
+}
