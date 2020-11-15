@@ -1,6 +1,9 @@
-# flutter_bottom_naviation_bar
+# Titled Bottom Navigation Bar
 
-A new Flutter project.
+<img src="https://user-images.githubusercontent.com/60619133/99178727-21970b00-273c-11eb-98b4-32c057fd95c1.png" alt="feed example" width = "320">
+
+## Reference
+[Titled Bottom Navigation Bar](https://pub.dev/packages/titled_navigation_bar)
 
 ## Getting Started
 
