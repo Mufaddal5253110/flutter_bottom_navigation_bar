@@ -1,6 +1,6 @@
-# Simple Bottom Navigation Bar
+# Custom Bottom Navigation Bar with tabs
 
-<img src="https://user-images.githubusercontent.com/60619133/99178724-2065de00-273c-11eb-98ad-880ca00bd79f.png" alt="feed example" width = "320">
+<img src="https://user-images.githubusercontent.com/60619133/99182446-08ea1d80-275b-11eb-9f08-7729c3001bdd.png" alt="feed example" width = "320">
 
 ## Getting Started
 
