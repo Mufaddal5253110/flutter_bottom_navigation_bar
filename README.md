@@ -1,6 +1,9 @@
-# flutter_bottom_naviation_bar
+# Curved Navigation Bar
 
-A new Flutter project.
+<img src="https://user-images.githubusercontent.com/60619133/99178728-21970b00-273c-11eb-857d-940ab51e47cb.png" alt="feed example" width = "320">
+
+## Reference
+[curved_navigation_bar](https://pub.dev/packages/curved_navigation_bar)
 
 ## Getting Started
 
