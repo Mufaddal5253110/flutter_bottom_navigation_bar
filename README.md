@@ -1,6 +1,6 @@
-# flutter_bottom_naviation_bar
+# Custom Bottom Naviation Bar
 
-A new Flutter project.
+<img src="https://user-images.githubusercontent.com/60619133/99178729-222fa180-273c-11eb-9850-c1c75c8086bc.png" alt="feed example" width = "320">
 
 ## Getting Started
 
